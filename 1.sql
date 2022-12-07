@@ -1,4 +1,4 @@
-CREATE OR FUNCTION func() RETURNS integer AS $$
+CREATE OR REPLACE FUNCTION func() RETURNS integer AS $$
 << outerblock >>
 DECLARE
 	empname varchar := 'Иванов Иван Иванович';
